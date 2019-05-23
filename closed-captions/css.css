@@ -2,7 +2,7 @@ body {
     background-color: black;
     display: grid;
     grid-template-columns: auto 700px auto;
-    grid-template-rows: 25% 600px auto;
+    grid-template-rows: 35% auto 35%;
 }
 
 @keyframes shake {
@@ -45,9 +45,12 @@ body {
 }
 
 @keyframes spike {
-    0%, 100% {
+
+    0%,
+    100% {
         clip-path: polygon(67% 0, 75% 0, 86% 0, 100% 0, 100% 12%, 100% 30%, 100% 48%, 100% 61%, 100% 83%, 100% 100%, 91% 100%, 83% 100%, 76% 100%, 72% 100%, 63% 100%, 58% 100%, 49% 100%, 44% 100%, 36% 100%, 31% 100%, 23% 100%, 11% 100%, 0 100%, 0 85%, 0 70%, 0 55%, 0 39%, 0 21%, 0 0, 12% 0, 19% 0, 29% 0, 36% 0, 44% 0, 53% 0, 61% 0);
     }
+
     50% {
         clip-path: polygon(67% 27%, 75% 14%, 78% 34%, 86% 20%, 85% 37%, 97% 39%, 87% 48%, 94% 59%, 84% 62%, 90% 76%, 80% 72%, 83% 90%, 73% 77%, 72% 91%, 63% 80%, 57% 93%, 47% 83%, 42% 95%, 34% 78%, 28% 91%, 24% 76%, 11% 88%, 17% 64%, 10% 66%, 18% 51%, 5% 45%, 19% 39%, 15% 25%, 25% 29%, 28% 14%, 34% 29%, 36% 8%, 42% 23%, 48% 10%, 53% 27%, 62% 14%);
     }
@@ -274,7 +277,7 @@ Feel free to adjust the defaults to your needs.
     grid-row-start: 2;
     grid-row-end: 3;
     width: 700px;
-    clip-path: inset(60px 0px 55px 0px);
+    clip-path: inset(60px 1px 55px 1px);
 }
 
 #closed-captions {
@@ -333,7 +336,7 @@ Feel free to adjust the defaults to your needs.
     font-weight: 200;
     font-style: normal;
     font-size: 1.1em;
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin-left: -38em;
     margin-top: 5em;
 }
@@ -620,7 +623,7 @@ Feel free to adjust the defaults to your needs.
 
 #closed-captions .on:nth-child(49) {
     animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(50) {
@@ -630,8 +633,8 @@ Feel free to adjust the defaults to your needs.
 }
 
 #closed-captions .on:nth-child(51) {
-    animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    animation: typing 3s steps(60, end);
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(52) {
@@ -641,8 +644,8 @@ Feel free to adjust the defaults to your needs.
 }
 
 #closed-captions .on:nth-child(53) {
-    animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    animation: typing 3s steps(60, end);
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(54) {
@@ -653,13 +656,13 @@ Feel free to adjust the defaults to your needs.
 }
 
 #closed-captions .on:nth-child(55) {
-    animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    animation: typing 3.5s steps(70, end);
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(56) {
     animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(57) {
@@ -670,7 +673,7 @@ Feel free to adjust the defaults to your needs.
 
 #closed-captions .on:nth-child(58) {
     animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(59) {
@@ -681,7 +684,7 @@ Feel free to adjust the defaults to your needs.
 
 #closed-captions .on:nth-child(60) {
     animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(61) {
@@ -692,7 +695,7 @@ Feel free to adjust the defaults to your needs.
 
 #closed-captions .on:nth-child(62) {
     animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(63) {
@@ -703,7 +706,7 @@ Feel free to adjust the defaults to your needs.
 
 #closed-captions .on:nth-child(64) {
     animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(65) {
@@ -714,7 +717,7 @@ Feel free to adjust the defaults to your needs.
 
 #closed-captions .on:nth-child(66) {
     animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(67) {
@@ -725,7 +728,7 @@ Feel free to adjust the defaults to your needs.
 
 #closed-captions .on:nth-child(68) {
     animation: typing 1s steps(10, end);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(69) {
@@ -736,7 +739,7 @@ Feel free to adjust the defaults to your needs.
 
 #closed-captions .on:nth-child(70) {
     animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(71) {
@@ -747,7 +750,7 @@ Feel free to adjust the defaults to your needs.
 
 #closed-captions .on:nth-child(72) {
     animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(73) {
@@ -758,7 +761,7 @@ Feel free to adjust the defaults to your needs.
 
 #closed-captions .on:nth-child(74) {
     animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(75) {
@@ -770,7 +773,7 @@ Feel free to adjust the defaults to your needs.
 
 #closed-captions .on:nth-child(76) {
     animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(77) {
@@ -781,7 +784,7 @@ Feel free to adjust the defaults to your needs.
 
 #closed-captions .on:nth-child(78) {
     animation: typing 2s steps(40, end);
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #closed-captions .on:nth-child(79) {
@@ -792,9 +795,9 @@ Feel free to adjust the defaults to your needs.
 }
 
 #closed-captions .on:nth-child(80) {
-    margin-top: 10em;
-    margin-left: -19em;
-    font-size: 2em;
+    margin-top: 11.5em;
+    margin-left: -19.2em;
+    font-size: 1.8em;
     transition: none;
 }
 
